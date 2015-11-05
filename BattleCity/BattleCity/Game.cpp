@@ -21,7 +21,7 @@ bool Game::GameInit(HINSTANCE hInstance)
 	if (!this->direct.initDirect3D(this->win.wndHandle))
 		return false;
 	// Khởi tạo bàn phím
-	if (!this->input.CreateInput() || !this->input.InitKeyboard(this->win.wndHandle))
-		return false;
+	/*if (!this->input.CreateInput() || !this->input.InitKeyboard(this->win.wndHandle))
+		return false;*/
 	return true;
 }

@@ -8,7 +8,7 @@ class Game
 private:
 	Window win;
 	DirectX direct;
-	Input input;
+	//Input input;
 public:
 	Game();
 	~Game();
